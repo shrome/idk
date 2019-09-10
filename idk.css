@@ -1,0 +1,40 @@
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+}
+@media only screen and (min-width=501px) {
+  img{
+    width: 90vw;
+    height: 50%;
+  }
+}
+@media only screen and (max-width=500px) {
+  img{
+    width: 50vw;
+    height: 20%;
+  }
+}
+
